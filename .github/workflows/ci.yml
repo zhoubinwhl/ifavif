@@ -10,7 +10,8 @@
         "**.build",
         "**.in",
         "**.yml",
-        "Makefile"
+        "Makefile",
+        "CMakeLists.txt"
       ]
     },
     "pull_request" : {
