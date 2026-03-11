@@ -89,7 +89,7 @@ endif()
 
 include(ExternalProject)
 ExternalProject_Add(libavif-build
-	URL https://github.com/AOMediaCodec/libavif/archive/refs/tags/v1.3.0.tar.gz
+	URL https://github.com/AOMediaCodec/libavif/archive/refs/tags/v1.4.0.tar.gz
 	DOWNLOAD_EXTRACT_TIMESTAMP TRUE
 	CONFIGURE_COMMAND ${CMAKE_COMMAND} -E env
 		"PKG_CONFIG_PATH=${DEPENDENCY_OUTPUT_DIRECTORY}/lib/pkgconfig"
